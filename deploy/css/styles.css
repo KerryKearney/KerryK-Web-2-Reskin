@@ -352,6 +352,15 @@ template {
 /* =============
     Base
 ============= */
+.container {
+  display: grid;
+  grid-template-columns: 18px auto 18px;
+  grid-template-areas: ". content .";
+}
+.container .content {
+  grid-area: content;
+}
+
 /* =============
     Typography
 ============= */
@@ -382,6 +391,13 @@ textarea {
 /* =============
     Header
 ============= */
+.navycontainer {
+  color: #2C3E54;
+}
+
 /* =============
     Footer
 ============= */
+.hero img {
+  width: 100%;
+}
