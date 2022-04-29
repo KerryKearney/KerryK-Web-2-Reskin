@@ -35,12 +35,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/Hero\/banner.jpg" : {
+    "\/assets\/hero\/banner.jpg" : {
       "ft" : 16384,
       "iS" : 90050,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/Hero\/banner.jpg",
+      "oAP" : "\/assets\/hero\/banner.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
