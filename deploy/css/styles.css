@@ -394,15 +394,12 @@ textarea {
 /* =============
     Footer
 ============= */
-/* =============
-    Hero
-============= */
-.hero img {
-  width: 100%;
+.navy {
+  background-color: #2C3E54;
 }
 
-.hero img {
-  width: 100%;
+.jeantype {
+  color: #ACC6E5;
 }
 
 /* =============
@@ -413,12 +410,42 @@ textarea {
 }
 
 /* =============
-    Hero
+    Hero Tabs
 ============= */
-.hero img {
-  width: 100%;
+.darkred {
+  background-color: #621A1A;
+  color: #fff;
 }
 
+.red {
+  background-color: #A52D2D;
+  color: #fff;
+}
+
+/* =============
+    Question Tabs
+============= */
+.navy {
+  background-color: #2C3E54;
+  color: #fff;
+}
+
+.questiontabs .questiontabs-content {
+  display: grid;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  .questiontabs .questiontabs-content {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+/* =============
+    Gallery
+============= */
 /* =============
     Feature Films
 ============= */
+.offwhite {
+  background-color: #EDEDED;
+}

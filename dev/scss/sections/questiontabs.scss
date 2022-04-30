@@ -1,9 +1,21 @@
 /* =============
-    Hero
+    Question Tabs
 ============= */
 
-.hero{
-    img{
-        width: 100%;
+.navy{
+    background-color: $navy;
+    color: $white;
+}
+
+
+.questiontabs{
+
+    .questiontabs-content{
+        display: grid;
+        gap: 20px;
+
+        @include md{
+            grid-template-columns: 50% 50%;
+        }
     }
 }
