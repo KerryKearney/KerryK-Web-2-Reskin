@@ -5,3 +5,17 @@
 .offwhite{
     background-color: $offwhite;
 }
+
+.featurefilms{
+    display: grid;
+
+    .featurefilms-content{
+        gap: 20px;
+        background-color: $offwhite;
+        color: $black;
+
+        @include md{
+            grid-template-columns: 50% 50%;
+        }
+    }
+}
