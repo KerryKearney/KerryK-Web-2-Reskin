@@ -15,21 +15,21 @@
         gap: 20px;
         background-color: $navy;
         color: $white;
+        font-weight: 400;
+
+        @include sm{
+            font-size: 22px;
+        }
 
         @include md{
             grid-template-columns: 50% 50%;
+            font-size: 29px;
+        }
+
+        @include lg{
+            font-size: 31px;
         }
     }
-
-    .questiontabs-content2{
-        gap: 20px;
-        background-color: $navy;
-        color: $white;
-
-        @include md{
-            grid-template-columns: 50% 50%;
-        }
-    }
-
 
 }
+

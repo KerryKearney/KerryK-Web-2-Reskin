@@ -2,12 +2,81 @@
     Hero Tabs
 ============= */
 
-.darkred{
-    background-color: $darkred;
-    color: $white;
-}
-
 .red{
     background-color: $red;
     color: $white;
+}
+
+.meet{
+    background-color: $darkred;
+    color: $white;
+
+    h1{
+        font-weight: 700;
+        
+        @include sm{
+            font-size: 18px;
+        }
+
+        @include md{
+            font-size: 18px;
+        }
+
+        @include lg{
+            font-size: 25px;
+        }
+
+        @include xxl{
+            font: 25px;
+        }
+    }
+
+    h2{
+        font-weight: 400;
+
+        @include sm{
+            font-size: 14px;
+        }
+
+        @include md{
+            font-size: 14px;
+        }
+
+        @include lg{
+            font-size: 16px;
+        }
+
+        @include xxl{
+            font-size: 16px;
+        }
+    }
+}
+
+.next{
+    background-color: $red;
+    color: $white;
+
+    h1{
+        font-weight: 700;
+    }
+
+    h2{
+        font-weight: 400;
+
+        @include sm{
+            font-size: 14px;
+        }
+
+        @include md{
+            font-size: 14px;
+        }
+
+        @include lg{
+            font-size: 16px;
+        }
+
+        @include xxl{
+            font-size: 16px;
+        }
+    }
 }

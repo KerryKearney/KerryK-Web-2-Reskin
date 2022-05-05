@@ -364,9 +364,20 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "outfit", sans-serif;
+}
+
 /* =============
     Buttons
 ============= */
+button {
+  background-color: #A52D2D;
+  color: #fff;
+  border: none;
+  padding: 5px 10px 5px 10px;
+}
+
 /* =============
     Forms
 ============= */
@@ -412,14 +423,62 @@ textarea {
 /* =============
     Hero Tabs
 ============= */
-.darkred {
-  background-color: #621A1A;
-  color: #fff;
-}
-
 .red {
   background-color: #A52D2D;
   color: #fff;
+}
+
+.meet {
+  background-color: #621A1A;
+  color: #fff;
+}
+.meet h1 {
+  font-weight: 700;
+}
+@media (min-width: 576px) {
+  .meet h1 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  .meet h1 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  .meet h1 {
+    font-size: 25px;
+  }
+}
+.meet h2 {
+  font-weight: 400;
+  font-size: 14px;
+}
+@media (min-width: 576px) {
+  .meet h2 {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) {
+  .meet h2 {
+    font-size: 14px;
+  }
+}
+@media (min-width: 992px) {
+  .meet h2 {
+    font-size: 16px;
+  }
+}
+
+.next {
+  background-color: #A52D2D;
+  color: #fff;
+}
+.next h1 {
+  font-weight: 700;
+}
+.next h2 {
+  font-weight: 400;
 }
 
 /* =============
@@ -437,19 +496,10 @@ textarea {
   gap: 20px;
   background-color: #2C3E54;
   color: #fff;
+  font-weight: 400;
 }
 @media (min-width: 768px) {
   .questiontabs .questiontabs-content {
-    grid-template-columns: 50% 50%;
-  }
-}
-.questiontabs .questiontabs-content2 {
-  gap: 20px;
-  background-color: #2C3E54;
-  color: #fff;
-}
-@media (min-width: 768px) {
-  .questiontabs .questiontabs-content2 {
     grid-template-columns: 50% 50%;
   }
 }
@@ -471,6 +521,12 @@ textarea {
   gap: 20px;
   background-color: #EDEDED;
   color: #000;
+}
+.featurefilms .featurefilms-content h3 {
+  font-weight: 600;
+}
+.featurefilms .featurefilms-content body {
+  font-weight: 400;
 }
 @media (min-width: 768px) {
   .featurefilms .featurefilms-content {
