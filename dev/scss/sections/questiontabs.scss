@@ -10,26 +10,34 @@
 
 .questiontabs{
     display: grid;
-
-    .questiontabs-content{
-        gap: 20px;
-        background-color: $navy;
-        color: $white;
-        font-weight: 400;
-
-        @include sm{
-            font-size: 22px;
-        }
+    gap: 15px;
 
         @include md{
-            grid-template-columns: 50% 50%;
-            font-size: 29px;
+            grid-template-columns: 50% auto;
+            margin: 30px 15px 30px 15px;
         }
 
-        @include lg{
-            font-size: 31px;
+        .questiontabs-content{
+            background-color: $navy;
+            color: $white;
+            font-weight: 400;
+            padding: 15px 0px 15px 0px;
+            
+            h2{
+                @include sm{
+                    font-size: 22px;
+                }
+
+                @include md{
+                    grid-template-columns: 50% 50%;
+                    font-size: 29px;
+                }
+
+                @include lg{
+                    font-size: 31px;
+                }
+            }
         }
-    }
 
 }
 

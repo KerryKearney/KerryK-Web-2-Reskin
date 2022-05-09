@@ -1,3 +1,28 @@
 /* =============
     Gallery
 ============= */
+
+.gallery{
+    display: grid;
+    
+    img{
+        width: 100%;
+    }
+
+    @include sm{
+        margin: 20px 0px 20px 0px;
+    }
+
+    @include md{
+        margin: 25px 0px 25px 0px;
+        grid-template-columns: 50% auto;
+    }
+
+    @include lg{
+        margin: 30px 0px 30px 0px;
+    }
+
+    @include xxl{
+        margin: 35px 0px 35px 0px;
+    }
+}

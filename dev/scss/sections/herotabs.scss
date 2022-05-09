@@ -7,9 +7,22 @@
     color: $white;
 }
 
+.hero-section{
+    display: grid;
+
+    @include md{
+        grid-template-columns: 33.33% auto;
+    }
+}
+
 .meet{
     background-color: $darkred;
     color: $white;
+    padding: 15px 0px 15px 0px;
+
+    img{
+        width: 100%;
+    }
 
     h1{
         font-weight: 700;
@@ -27,7 +40,7 @@
         }
 
         @include xxl{
-            font: 25px;
+            font-size: 25px;
         }
     }
 
@@ -55,9 +68,26 @@
 .next{
     background-color: $red;
     color: $white;
+    padding: 15px 0px 15px 0px;
 
     h1{
         font-weight: 700;
+
+        @include sm{
+            font-size: 18px;
+        }
+
+        @include md{
+            font-size: 18px;
+        }
+
+        @include lg{
+            font-size: 25px;
+        }
+
+        @include xxl{
+            font-size: 25px;
+        }
     }
 
     h2{

@@ -9,10 +9,27 @@
 .featurefilms{
     display: grid;
 
+    @include md{
+        grid-template-columns: 50% auto;
+        grid-template-rows: 3;
+    }
+        
+    img{
+        width: 100%;
+    }
+
     .featurefilms-content{
         gap: 20px;
         background-color: $offwhite;
         color: $black;
+
+        .container{
+            margin-bottom: 15px;
+        }
+
+        @include md{
+            margin: 15px;
+        }
 
         h2{
             font-weight: 100px;
@@ -31,6 +48,7 @@
         }
         
         h3{
+            padding: 15px 0px 50px 0px;
             font-weight: 600;
 
             @include sm{
@@ -42,8 +60,9 @@
             }
         }
 
-        body{
+        p{
             font-weight: 400;
+            padding-bottom: 15px;
             
             @include sm{
                 font-size: 16px;
@@ -56,6 +75,10 @@
 
         @include md{
             grid-template-columns: 50% 50%;
+        }
+
+        @include lg{
+            grid-template-columns: 33.33% 33.33% 33.33%;
         }
     }
 }

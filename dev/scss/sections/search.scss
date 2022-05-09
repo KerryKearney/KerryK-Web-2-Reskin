@@ -1,0 +1,19 @@
+/* =============
+    Search
+============= */
+
+input{
+    font-weight: 100;
+
+    @include sm{
+        font-size: 14px;
+    }
+
+    @include md{
+        font-size: 30px;
+    }
+
+    @include lg{
+        font-size: 35px;
+    }
+}
